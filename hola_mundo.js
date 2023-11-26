@@ -67,9 +67,13 @@ if (myBool) {
     console.log("myBool no es null")
 }
 
+if (myBool) {
+    console.log("myBool tiene un dato")
+}
+
 myBool = "Axel"
 if (myBool) {
-    console.log("myBool es tiene un dato")
+    console.log("myBool tiene un dato")
 }
 
 //Funciones
@@ -77,3 +81,7 @@ function myFunction() {
     return "Mi función"
 }
 console.log(myFunction())
+
+//Listas
+let myList = ["Axel", "Zaragoci", "Axel-Zaragoci", 17]
+console.log(myList)
