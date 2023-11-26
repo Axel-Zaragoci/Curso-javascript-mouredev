@@ -38,7 +38,16 @@ myBool = null
 console.log(myBool)
 console.log(myBool + myNumber2)
 console.log(typeof MyBool)
+
 //Constantes
 const MY_CONST = "Mi propiedad constante"
-// MY_CONST = "Otro valor" => Generar error en la ejecución
+//MY_CONST = "Otro valor" => Generar error en la ejecución
 console.log(MY_CONST)
+
+//Control de flujo
+if (myNumber == 10) {
+    console.log("El valor es 10")
+}
+if (myNumber == 11) {
+    console.log("El valor es 11")
+}
