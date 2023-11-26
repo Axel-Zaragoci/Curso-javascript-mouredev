@@ -123,3 +123,16 @@ class MyClass {
 let myClass = new MyClass("Axel", 17)
 console.log(myClass)
 console.log(MyClass.name)
+
+//Enum
+const MyEnum = {
+    DART: "dart", 
+    PYTHON: "python", 
+    SWIFT: "swift", 
+    JAVA: "java", 
+    KOTLIN: "kotlin", 
+    JAVASCRIPT: "javascript"
+}
+
+const myEnum = MyEnum.JAVASCRIPT
+console.log(myEnum)
