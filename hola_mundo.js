@@ -74,5 +74,6 @@ if (myBool) {
 
 //Funciones
 function myFunction() {
-    console.log("Mi función")
+    return "Mi función"
 }
+console.log(myFunction())
