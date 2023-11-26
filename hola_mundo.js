@@ -92,3 +92,11 @@ let mySet = new Set(["Axel", "Zaragoci", "Axel-Zaragoci", 17, "Axel"])
 mySet.add("Zaragoci")
 console.log(mySet)
 console.log(typeof mySet)
+
+//Mapa/Diccionario
+let myMap = new Map([["Axel", 17], ["Judith", 18,], ["Teo", 19]])
+console.log(myMap)
+
+myMap.set("Didier", 49)
+console.log(myMap)
+console.log(myMap.get("Judith"))
