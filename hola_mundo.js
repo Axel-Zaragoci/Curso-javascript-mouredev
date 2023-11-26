@@ -45,14 +45,29 @@ const MY_CONST = "Mi propiedad constante"
 console.log(MY_CONST)
 
 //Control de flujo
-myNumber = 10
+myNumber = 11
+myString = "Hola"
 
 if (myNumber == 10 && myString == "Hola") {
     console.log("El valor es 10")
 }
-else if (myNumber == 11) {
+else if (myNumber == 11 || myString == "Hola") {
     console.log("El valor es 11")
 }
 else {
     console.log("El valor no es conocido, el valor es ", myNumber)
+}
+
+myBool = null
+if (myBool == null) {
+    console.log("myBool es null")
+}
+
+if (myBool) {
+    console.log("myBool no es null")
+}
+
+myBool = "Axel"
+if (myBool) {
+    console.log("myBool es tiene un dato")
 }
