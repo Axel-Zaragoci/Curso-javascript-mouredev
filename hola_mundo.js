@@ -71,3 +71,8 @@ myBool = "Axel"
 if (myBool) {
     console.log("myBool es tiene un dato")
 }
+
+//Funciones
+function myFunction() {
+    console.log("Mi función")
+}
