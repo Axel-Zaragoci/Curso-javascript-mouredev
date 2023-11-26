@@ -48,6 +48,9 @@ console.log(MY_CONST)
 if (myNumber == 10) {
     console.log("El valor es 10")
 }
-if (myNumber == 11) {
+else if (myNumber == 11) {
     console.log("El valor es 11")
+}
+else {
+    console.log("El valor no es conocido, el valor es ", myNumber)
 }
