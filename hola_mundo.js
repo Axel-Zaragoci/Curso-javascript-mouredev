@@ -25,3 +25,11 @@ console.log(myNumber - 1)
 console.log(myNumber)
 
 console.log(myString + " " + myNumber)
+
+let myNumber2 = 6.5
+console.log(myNumber2)
+console.log(typeof myNumber2)
+
+let myBool = false
+console.log(myBool)
+console.log(typeof myBool)
