@@ -105,3 +105,9 @@ console.log(myMap.get("Judith"))
 for (const value of myList) {
     console.log(value)
 }
+
+let myCounter = 0
+while (myCounter < myList.length) {
+    console.log(myList[myCounter])
+    myCounter = myCounter + 1
+}
