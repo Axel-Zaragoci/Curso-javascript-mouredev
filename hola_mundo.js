@@ -85,3 +85,4 @@ console.log(myFunction())
 //Listas
 let myList = ["Axel", "Zaragoci", "Axel-Zaragoci", 17]
 console.log(myList)
+console.log(myList[0])
