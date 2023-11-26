@@ -45,7 +45,9 @@ const MY_CONST = "Mi propiedad constante"
 console.log(MY_CONST)
 
 //Control de flujo
-if (myNumber == 10) {
+myNumber = 10
+
+if (myNumber == 10 && myString == "Hola") {
     console.log("El valor es 10")
 }
 else if (myNumber == 11) {
