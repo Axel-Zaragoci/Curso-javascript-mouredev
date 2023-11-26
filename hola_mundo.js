@@ -6,11 +6,11 @@ Esto es un comentario de varias líneas
 
 console.log("Hola mundo");
 
-//Variables antiguas
+//Variables creadas de forma anticuada antiguas
 var myString = "Esto es una cadena de texto"
 console.log(myString)
 
-//Variables nuevas
+//Variables creadas con el nuevo modo => Se escribe el nombre en minúscula y para diferenciar palabras dentro de un mismo nombre se pone la primera letra en mayúscula
 let myString2 = "Esto es una cadena de texto diferente"
 myString2 = "Cambio el valor de la cadena de texto"
 console.log(typeof myString2)
@@ -39,12 +39,12 @@ console.log(myBool)
 console.log(myBool + myNumber2)
 console.log(typeof MyBool)
 
-//Constantes
+//Constantes => Son como variables pero no puede cambiar su valor (el nombre debe ir todo en mayúsculas y para separar palabras en el npmbre se usa "_")
 const MY_CONST = "Mi propiedad constante"
 //MY_CONST = "Otro valor" => Generar error en la ejecución
 console.log(MY_CONST)
 
-//Control de flujo
+//Control de flujo => Crear restricciones, es decir, que deban cumplirse ciertos requisitos para que ocurra algo
 myNumber = 11
 myString = "Hola"
 
@@ -76,24 +76,24 @@ if (myBool) {
     console.log("myBool tiene un dato")
 }
 
-//Funciones
+//Funciones => Código que se puede volver a ejecutar en cualquier sitio del mismo código con solo poner el nombre de la función
 function myFunction() {
     return "Mi función"
 }
 console.log(myFunction())
 
-//Listas
+//Listas => Lista de varios elementos que pueden ser de diferentes tipos
 let myList = ["Axel", "Zaragoci", "Axel-Zaragoci", 17]
 console.log(myList)
 console.log(myList[0])
 
-//Set
+//Set => Listas que no permiten repetir valores
 let mySet = new Set(["Axel", "Zaragoci", "Axel-Zaragoci", 17, "Axel"])
 mySet.add("Zaragoci")
 console.log(mySet)
 console.log(typeof mySet)
 
-//Mapa/Diccionario
+//Mapa/Diccionario => Listas que dan un valor clave para identificar otro valor de la misma
 let myMap = new Map([["Axel", 17], ["Judith", 18,], ["Teo", 19]])
 console.log(myMap)
 
@@ -101,7 +101,7 @@ myMap.set("Didier", 49)
 console.log(myMap)
 console.log(myMap.get("Judith"))
 
-//Bucles
+//Bucles => Crear bucles que se ejecutan hasta que una condición deja de cumplirse
 for (const value of myList) {
     console.log(value)
 }
@@ -112,7 +112,7 @@ while (myCounter < myList.length) {
     myCounter = myCounter + 1
 }
 
-//Clases
+//Clases => Permite definir algunas propiedades y métodos para cierto tipo de objetos
 class MyClass {
     constructor(name, age) {
         this.name = name
@@ -124,7 +124,7 @@ let myClass = new MyClass("Axel", 17)
 console.log(myClass)
 console.log(MyClass.name)
 
-//Enum
+//Enum => Listas que vinculan el contenido a una clave y permite mostrar el contenido teniendo solo la clave
 const MyEnum = {
     DART: "dart", 
     PYTHON: "python", 
