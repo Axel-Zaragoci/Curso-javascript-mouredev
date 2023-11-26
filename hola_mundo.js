@@ -13,4 +13,5 @@ console.log(myString)
 //Variables nuevas
 let myString2 = "Esto es una cadena de texto diferente"
 myString2 = "Cambio el valor de la cadena de texto"
+myString2 = 6
 console.log(myString2)
