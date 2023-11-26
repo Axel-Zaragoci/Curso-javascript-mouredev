@@ -111,3 +111,15 @@ while (myCounter < myList.length) {
     console.log(myList[myCounter])
     myCounter = myCounter + 1
 }
+
+//Clases
+class MyClass {
+    constructor(name, age) {
+        this.name = name
+        this.age = age
+    }
+}
+
+let myClass = new MyClass("Axel", 17)
+console.log(myClass)
+console.log(MyClass.name)
