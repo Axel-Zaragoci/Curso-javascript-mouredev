@@ -100,3 +100,8 @@ console.log(myMap)
 myMap.set("Didier", 49)
 console.log(myMap)
 console.log(myMap.get("Judith"))
+
+//Bucles
+for (const value of myList) {
+    console.log(value)
+}
