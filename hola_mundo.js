@@ -34,6 +34,10 @@ let myBool = false
 console.log(myBool)
 console.log(typeof myBool)
 
+myBool = null
+console.log(myBool)
+console.log(myBool + myNumber2)
+console.log(typeof MyBool)
 //Constantes
 const MY_CONST = "Mi propiedad constante"
 // MY_CONST = "Otro valor" => Generar error en la ejecución
