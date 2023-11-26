@@ -89,5 +89,6 @@ console.log(myList[0])
 
 //Set
 let mySet = new Set(["Axel", "Zaragoci", "Axel-Zaragoci", 17, "Axel"])
+mySet.add("Zaragoci")
 console.log(mySet)
 console.log(typeof mySet)
